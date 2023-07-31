@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Love Calculator</title>
+    <script src="tailwind.js"></script>
+
+  </head>
+  <body class="bg-[#FDEAF0] w-full h-screen flex items-center justify-center">
+
+    <div class="max-w-xl p-4 w-full">
+      <h1 class="text-[#E10E73] text-6xl text-center mb-10">Love Calculator💕</h1>
+      <div class="flex flex-col w-full justify-center items-center space-y-5 text-[#E10E73] mb-10">
+        <div class="text-center w-full text-3xl">
+          <input id="name1" class="w-full pl-3 rounded-md h-14" placeholder="First Person">
+        </div>
+        <div class="text-center w-full text-3xl">
+          <input id="name2" class="pl-3 w-full rounded-md h-14" placeholder="Second Person">
+        </div>
+      </div>
+      <div class="text-3xl text-center text-[#E10E73] mb-10">
+        <p id="result">Result..</p>
+      </div>
+      <div class="flex items-center justify-center">
+        <button class="w-48 h-10 text-2xl bg-[#E10E73] text-white rounded-lg" onclick=calculateLoveScore()>Calculate</button>
+      </div>
+      
+    </div>
+
+  <script src="index.js"></script>
+  </body>
+
+</html>
